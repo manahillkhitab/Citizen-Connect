@@ -96,3 +96,8 @@ npm run dev
 
 ## 📄 License
 This project is open-sourced under the [MIT license](LICENSE).
+
+---
+
+## 📬 Contact
+For any queries or feedback, feel free to reach out via GitHub or email.
