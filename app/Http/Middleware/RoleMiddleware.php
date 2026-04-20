@@ -21,9 +21,17 @@ class RoleMiddleware
     }
 
     // 2. Check if the user's role matches the required role
-    // Example: If route requires 'admin' but user is 'citizen', deny access.
     if ($request->user()->role !== $role) {
-        abort(403, 'Unauthorized action. You do not have permission.');
+        $userRole = $request->user()->role;
+        
+        // Redirect to the appropriate dashboard if they hit the wrong endpoint
+        if ($userRole === 'admin') {
+            return redirect()->route('admin.dashboard');
+        } elseif ($userRole === 'department') {
+            return redirect()->route('department.dashboard');
+        } else {
+            return redirect()->route('dashboard');
+        }
     }
 
     return $next($request);

@@ -10,9 +10,9 @@
 
 Here are some previews of the platform in action. *(Take screenshots of your app and save them in the `screenshots/` folder with the names below to see them here!)*
 
-| Dashboard | Complaint Filing | Admin View |
-| :---: | :---: | :---: |
-| ![Dashboard](screenshots/dashboard.png) | ![Complaint](screenshots/complaint.png) | ![Admin](screenshots/admin.png) |
+| User Dashboard | Complaint Status | Admin Dashboard | Department View |
+| :---: | :---: | :---: | :---: |
+| ![Dashboard](screenshots/dashboard.png) | ![Complaint](screenshots/user%20View.png) | ![Admin](screenshots/Admin%20View.png) | ![Dept](screenshots/Department%20View.png) |
 
 ---
 
