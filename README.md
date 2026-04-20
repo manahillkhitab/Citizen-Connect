@@ -1,6 +1,18 @@
 # 🏛️ Citizen Connect – عوام کی آواز
 
+![Citizen Connect Banner](screenshots/banner.png)
+
 **Citizen Connect** is a professional Government-to-Citizen (G2C) portal designed to bridge the gap between the public and government departments. It empowers citizens to report issues, track resolutions, and participate in community improvement with transparency and efficiency.
+
+---
+
+## 📸 Gallery
+
+Here are some previews of the platform in action. *(Take screenshots of your app and save them in the `screenshots/` folder with the names below to see them here!)*
+
+| Dashboard | Complaint Filing | Admin View |
+| :---: | :---: | :---: |
+| ![Dashboard](screenshots/dashboard.png) | ![Complaint](screenshots/complaint.png) | ![Admin](screenshots/admin.png) |
 
 ---
 
